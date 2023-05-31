@@ -1,0 +1,9 @@
+﻿.form {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    width: 400px;
+    margin-top: 300px;
+    padding: 10px
+}

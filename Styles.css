@@ -1,0 +1,84 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background: url(image.png)no-repeat;
+    background-size: cover;
+}
+
+/*login form css*/
+.form {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    opacity: 99%;
+    max-width:370px;
+    
+    margin: 200px auto 100px;
+    padding: 7px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+    .form p {
+        font-size:20px;
+        padding:1px;
+        text-align: center;
+        text-decoration-style:solid;
+    }
+    .form input {
+        outline: 0;
+        border-radius: 10px;
+        background: #F2F2F2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    
+        .form input:hover {
+            background-color: #D3F8F9;
+            transition: all 1s ease 0s;
+        }
+
+        .form input:focus {
+            background-color: #D3F8F9;
+            transition: all 1s ease 0s;
+        }
+
+    .form button {
+        text-transform: uppercase;
+        outline: 0;
+        border-radius: 10px;
+        background: #1ADBE5;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+        .form button:hover, .form button:active, .form button:focus {
+            background-color: #06C5CF;
+            transition: all 1s ease 0s;
+        }
+.imogi{
+    font-size:30px;
+    font-display:block;
+
+}
+.social {
+    font-size: 30px;
+    font-display: block;
+    margin-top:15px;
+    
+    grid-area:auto;
+}
+
+
+   
